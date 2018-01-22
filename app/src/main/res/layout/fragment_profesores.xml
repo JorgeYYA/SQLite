@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorgeyya.a4a.Profesores">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profesor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nom_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Nombre del profesor"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edad_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Edad del profesor"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ciclo_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Ciclo del profesor"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/curso_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Curso del profesor"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/despacho_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Despacho del profesor"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_guardar_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar profesor" />
+
+    </LinearLayout>
+</FrameLayout>

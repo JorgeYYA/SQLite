@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorgeyya.a4a.Alumnos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alumno"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nom_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Nombre del alumno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edad_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Edad del alumno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ciclo_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Ciclo del alumno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/curso_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Curso del alumno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/n_media_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Nota media del alumno"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_guardar_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar alumno" />
+
+    </LinearLayout>
+</FrameLayout>

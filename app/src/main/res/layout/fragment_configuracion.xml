@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorgeyya.a4a.Alumnos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configuración BBDD"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_alumnno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Tabla Alumnos" />
+
+            <RadioButton
+                android:id="@+id/radio_profesor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tabla Profesores" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/identificador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="Identificador"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_borrar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar coincidencias" />
+
+        <Button
+            android:id="@+id/btn_borrar_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="borrar bbdd entera" />
+
+    </LinearLayout>
+</FrameLayout>
